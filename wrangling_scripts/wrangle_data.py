@@ -124,7 +124,7 @@ def return_figures():
     # first chart plots arable land from 1990 to 2015 in top 10 economies 
     # as a line chart
     
-    path = 'C:/Users/isabh/Documents/workspace_dashboard/data/owid-covid-data.csv'
+    path = 'data/owid-covid-data.csv'
     cols = ['iso_code','continent','location','people_vaccinated', 'people_fully_vaccinated','people_vaccinated_per_hundred','people_fully_vaccinated_per_hundred']
     world_vax = clean_data(path, cols)
     graph_one = []    
